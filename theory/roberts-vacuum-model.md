@@ -239,14 +239,6 @@ If time is local and life carries the imprint of its origin, then biological agi
 
 The **Roberts Vacuum Model** offers a coherent, testable explanation for cosmic phenomena using a single new postulate: a timeless, pressure‑bearing TSC substrate. Gravity, dark matter, dark energy, and quantum fluctuations emerge naturally from the dynamics of a void in this substrate. The model is focused on our observable universe, with clear predictions that can be tested with existing or near‑future experiments.
 
-**Next steps for the author:**
-
-1. Publish this report on Zenodo and GitHub to establish priority.
-2. Learn Python and cosmology basics to simulate key predictions.
-3. Reach out to physicists for collaboration.
-4. Design the superfluid helium experiment in more detail.
-5. Continue refining the theory with feedback.
-
 ---
 
 *End of Report*
@@ -254,4 +246,4 @@ The **Roberts Vacuum Model** offers a coherent, testable explanation for cosmic 
 **Author:** Hollis Roberts  
 **Date:** February 16, 2026  
 **DOI:** [To be assigned via Zenodo]  
-**GitHub:** https://github.com/[username]/aett-tsc-roberts-vacuum-model
+**GitHub:** https://github.com/Hollis-Roberts/aett-tsc-roberts-vacuum-model
