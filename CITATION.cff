@@ -1,1 +1,17 @@
-
+cff-version: 1.2.0
+title: "AETT/TSC Framework: The Roberts Vacuum Model"
+message: "If you use this work, please cite it as below."
+authors:
+  - family-names: Roberts
+    given-names: Hollis
+    orcid: (optional - you can get one at orcid.org)
+date-released: 2026-02-16
+url: "https://github.com/[username]/aett-tsc-roberts-vacuum-model"
+license: CC-BY-4.0
+preferred-citation:
+  type: software
+  authors:
+    - family-names: Roberts
+      given-names: Hollis
+  title: "AETT/TSC Framework: The Roberts Vacuum Model"
+  year: 2026
