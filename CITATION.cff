@@ -1,17 +1,20 @@
 cff-version: 1.2.0
-title: "AETT/TSC Framework: The Roberts Vacuum Model"
+title: "Temporal Decoupling v6: Toward a Unified Theory of Time, Gravity, and Quantum Mechanics"
 message: "If you use this work, please cite it as below."
 authors:
   - family-names: Roberts
     given-names: Hollis
-    orcid: (optional - you can get one at orcid.org)
-date-released: 2026-02-16
+version: "6.0"
+date-released: 2026-05-15
 url: "https://github.com/Hollis-Roberts/aett-tsc-roberts-vacuum-model"
 license: CC-BY-4.0
+doi: 10.5281/zenodo.19802599
 preferred-citation:
-  type: software
+  type: article
   authors:
     - family-names: Roberts
       given-names: Hollis
-  title: "AETT/TSC Framework: The Roberts Vacuum Model"
+  title: "Temporal Decoupling v6: Toward a Unified Theory of Time, Gravity, and Quantum Mechanics"
   year: 2026
+  doi: 10.5281/zenodo.19802599
+  url: "https://doi.org/10.5281/zenodo.19802599"
