@@ -1,6 +1,1 @@
-.DS_Store
-*.log
-*.aux
-*.out
-*.toc
-*.synctex.gz
+*.aux *.log *.out *.toc *.lof *.lot *.bbl *.blg *.fls *.fdb_latexmk *.synctex.gz *.bcf *.run.xml *.nav *.snm *.vrb *.gz
