@@ -1,41 +1,43 @@
-# AETT/TSC Framework: The Roberts Vacuum Model
-
+# Temporal Decoupling Framework (AETT / TSC)
 **Author:** Hollis Roberts  
-**First published:** February 2026  
-**DOI:** [To be assigned via Zenodo]
+**Latest Version:** v6 (2026)  
+**Zenodo DOI:** [10.5281/zenodo.19802599](https://doi.org/10.5281/zenodo.19802599)
 
-## Overview
+## 🌌 Overview
+Temporal Decoupling is a theoretical framework proposing that time and gravity are not fundamental properties of reality, but emergent phenomena arising from a background scalar medium (the Timeless Sea).
 
-The Accumulative Emergent Time Theory (AETT) proposes that time is not fundamental but emerges from the dynamics of a Timeless Sea Cosmology (TSC). The **Roberts Vacuum Model** refines this by positing that our universe is a **void** within the TSC, with gravity arising from external pressure on the void walls.
+The framework comprises two interconnected theories:
+1.  **Timeless Sea Cosmology (TSC):** Describes the medium, flow lines, and pressure.
+2.  **Accumulative Emergent Time Theory (AETT):** Describes the emergence of time via matter coupling.
 
-This repository contains the complete theoretical framework, mathematical derivations, testable predictions, and technological applications.
+## 🚀 v6 Release Highlights
+Version 6 addresses conceptual conflation and introduces significant formal developments:
+- **Tensorial Stress-Emergence:** Bridges scalar pressure to the Einstein Field Equations via a coarse-grained stress tensor $\Pi_{\mu\nu}^{\text{TSC}}$.
+- **Black Hole Thermodynamics:** Maps horizon entropy and Hawking radiation to TSC contact dynamics.
+- **Friedmann Recovery:** Derives cosmological expansion and the equation of state $w(z)$ from residual TSC pressure.
+- **Lorentz Invariance:** Recovers standard relativistic field theory as an infrared fixed point.
+- **Open Quantum System Formalism:** Separates environmental and timeline decoherence channels using the GKSL equation.
 
-## Key Concepts
+## 📚 Version History & Files
+| Version | Status | Description |
+| :--- | :--- | :--- |
+| **v6** | **Current** | **Tensorial stress emergence, BH thermodynamics, Friedmann recovery.** |
+| v5 | Archived | Conceptual claims register & initial mathematical goals. |
+| v4 | Archived | Early formalism drafts. |
+| v1-v3 | Archived | Initial conceptual drafts (see `archives/`). |
 
-- **TSC Substrate:** A timeless, pressure-bearing medium
-- **The Void:** Our universe as a region of reduced pressure
-- **Gravity:** External pressure on the void walls
-- **Dark Matter:** Entrained TSC fragments or wall thickness
-- **Dark Energy:** Relaxation of the void walls
+## 📂 Repository Structure
+- `v6/`: Contains the final source code (LaTeX) and compiled PDF for Version 6.
+- `v5/`: Contains the source and PDF for Version 5.
+- `archives/`: Contains zipped backups of older drafts (v1–v4).
 
-## Repository Structure
+## 🔬 Key Predictions (v6)
+- **Qubit Coherence:** 250× improvement at L2 vs. Earth (Falsification: <50×).
+- **Void Hubble Constant:** $H_{void} \approx 66 \pm 1.5$ km/s/Mpc.
+- **Webb Anomaly:** Galaxy age excess scales as $\delta^{0.04}$.
+- **Dark Matter:** Atomic clock drift near DM overdensities.
 
-- `/theory` - Core theoretical documents and mathematical foundations
-- `/predictions` - Testable experimental predictions
-- `/applications` - Potential technological applications
-- `/figures` - Diagrams and visual analogies
-- `/archive` - Previous versions of the framework
-
-## How to Cite
-
-If you use or reference this work, please cite as:
-
-Roberts, H. (2026). AETT/TSC Framework: The Roberts Vacuum Model. GitHub. [DOI-link]
-
-## License
-
-This work is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) (or choose another license—see Step 4).
-
-## Contact
-
-For questions or collaboration: hollisaroberts@hotmail.com
+## 🤝 Engagement
+This framework is open for critique, collaboration, and mathematical formalization.
+- **Read the Paper:** [Zenodo Link](https://doi.org/10.5281/zenodo.19802599)
+- **Contact:** info@temporaldecoupling.com
