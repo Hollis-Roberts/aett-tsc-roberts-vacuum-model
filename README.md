@@ -31,6 +31,10 @@ Version 6 addresses conceptual conflation and introduces significant formal deve
   [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19802599.svg)](https://doi.org/10.5281/zenodo.19802599)
 - **Companion: Particle Spectrum & Coupling Mechanics**  
   [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20437023.svg)](https://doi.org/10.5281/zenodo.20437023)
+
+### Source Files
+- `v6/Temporal_Decoupling_Companion.pdf` — Published PDF
+- `v6/companion_source.zip` — LaTeX source + figures for reproducibility  
   
 ## 📂 Repository Structure
 - `v6/`: Contains the final source code (LaTeX) and compiled PDF for Version 6.
