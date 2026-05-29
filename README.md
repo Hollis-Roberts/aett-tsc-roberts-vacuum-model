@@ -26,6 +26,12 @@ Version 6 addresses conceptual conflation and introduces significant formal deve
 | v4 | Archived | Early formalism drafts. |
 | v1-v3 | Archived | Initial conceptual drafts (see `archives/`). |
 
+## Publications
+- **Temporal Decoupling v6** (Core Framework)  
+  [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19802599.svg)](https://doi.org/10.5281/zenodo.19802599)
+- **Companion: Particle Spectrum & Coupling Mechanics**  
+  [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20437023.svg)](https://doi.org/10.5281/zenodo.20437023)
+  
 ## 📂 Repository Structure
 - `v6/`: Contains the final source code (LaTeX) and compiled PDF for Version 6.
 - `v5/`: Contains the source and PDF for Version 5.
