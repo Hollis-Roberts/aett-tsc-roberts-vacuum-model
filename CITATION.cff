@@ -1,12 +1,12 @@
 cff-version: 1.2.0
-title: "Temporal Decoupling v6: Toward a Unified Theory of Time, Gravity, and Quantum Mechanics"
-message: "If you use this work, please cite it as below. A companion technical note is also available (DOI: 10.5281/zenodo.20437023)."
+title: "The Temporal Decoupling Framework (v10.0)"
+message: "If you use this work, please cite it using the metadata below."
 authors:
   - family-names: Roberts
-    given-names: Hollis
+    given-names: Hollis Augustus
     orcid: https://orcid.org/0009-0009-3168-5560
-version: "6.0"
-date-released: 2026-05-15
+version: "10.0"
+date-released: 2026-07-24
 url: "https://github.com/Hollis-Roberts/aett-tsc-roberts-vacuum-model"
 license: CC-BY-4.0
 doi: 10.5281/zenodo.19802599
@@ -14,9 +14,9 @@ preferred-citation:
   type: article
   authors:
     - family-names: Roberts
-      given-names: Hollis
+      given-names: Hollis Augustus
       orcid: https://orcid.org/0009-0009-3168-5560
-  title: "Temporal Decoupling v6: Toward a Unified Theory of Time, Gravity, and Quantum Mechanics"
+  title: "The Temporal Decoupling Framework"
   year: 2026
   doi: 10.5281/zenodo.19802599
   url: "https://doi.org/10.5281/zenodo.19802599"
@@ -24,7 +24,7 @@ related-publications:
   - type: article
     authors:
       - family-names: Roberts
-        given-names: Hollis
+        given-names: Hollis Augustus
         orcid: https://orcid.org/0009-0009-3168-5560
     title: "Pre-Temporal Worldlines, Chronometric Coupling, and the Geometric Origin of the Particle Spectrum"
     year: 2026
