@@ -1,53 +1,58 @@
-# Temporal Decoupling Framework (AETT / TSC)
-**Author:** Hollis Roberts  
-**Latest Version:** v6 (2026)  
-**Zenodo DOI:** [10.5281/zenodo.19802599](https://doi.org/10.5281/zenodo.19802599)
+# The Temporal Decoupling Framework (v10.0)
+### *A Scalar-Stress Substrate Model for Cross-Scale Relativistic Mechanics*
 
-## 🌌 Overview
-Temporal Decoupling is a theoretical framework proposing that time and gravity are not fundamental properties of reality, but emergent phenomena arising from a background scalar medium (the Timeless Sea).
+**Author:** Hollis Augustus Roberts  
+**Entity / Lead Architect:** Temporal Decoupling  
+**Repository:** `aett-tsc-roberts-vacuum-model`  
 
-The framework comprises two interconnected theories:
-1.  **Timeless Sea Cosmology (TSC):** Describes the medium, flow lines, and pressure.
-2.  **Accumulative Emergent Time Theory (AETT):** Describes the emergence of time via matter coupling.
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19802599.svg)](https://doi.org/10.5281/zenodo.19802599)
+[![Qeios Pre-print](https://img.shields.io/badge/Qeios-Pending_Review-blue)](https://www.qeios.com)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
-## 🚀 v6 Release Highlights
-Version 6 addresses conceptual conflation and introduces significant formal developments:
-- **Tensorial Stress-Emergence:** Bridges scalar pressure to the Einstein Field Equations via a coarse-grained stress tensor $\Pi_{\mu\nu}^{\text{TSC}}$.
-- **Black Hole Thermodynamics:** Maps horizon entropy and Hawking radiation to TSC contact dynamics.
-- **Friedmann Recovery:** Derives cosmological expansion and the equation of state $w(z)$ from residual TSC pressure.
-- **Lorentz Invariance:** Recovers standard relativistic field theory as an infrared fixed point.
-- **Open Quantum System Formalism:** Separates environmental and timeline decoherence channels using the GKSL equation.
+---
 
-## 📚 Version History & Files
-| Version | Status | Description |
-| :--- | :--- | :--- |
-| **v6** | **Current** | **Tensorial stress emergence, BH thermodynamics, Friedmann recovery.** |
-| v5 | Archived | Conceptual claims register & initial mathematical goals. |
-| v4 | Archived | Early formalism drafts. |
-| v1-v3 | Archived | Initial conceptual drafts (see `archives/`). |
+## 📌 Abstract & Overview
 
-## Publications
-- **Temporal Decoupling v6** (Core Framework)  
-  [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19802599.svg)](https://doi.org/10.5281/zenodo.19802599)
-- **Companion: Particle Spectrum & Coupling Mechanics**  
-  [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20437023.svg)](https://doi.org/10.5281/zenodo.20437023)
+The **Temporal Decoupling Framework** resolves long-standing cosmological and quantum anomalies by modeling space as a **3D continuous physical substrate** with dynamic pressure gradients ($\nabla^2 P$) rather than a passive, empty metric. 
 
-### Source Files
-- `v6/Temporal_Decoupling_Companion.pdf` — Published PDF
-- `v6/companion_source.zip` — LaTeX source + figures for reproducibility  
-  
-## 📂 Repository Structure
-- `v6/`: Contains the final source code (LaTeX) and compiled PDF for Version 6.
-- `v5/`: Contains the source and PDF for Version 5.
-- `archives/`: Contains zipped backups of older drafts (v1–v4).
+Instead of relying on unobservable extra spatial dimensions or abstract hyper-geometries, this framework establishes that local mass and energy densities directly determine local time rates ($\Delta \tau$). By mapping these differential time zones across cosmic structures, the framework unifies cosmic expansion anomalies (such as the Hubble Tension) with local quantum decoherence limits.
+[ COLD / FAST ZONE ]
+                 Empty Voids (Layer D)
+                      │
+                      │ (Density Drops)
+                      ▼
+         ════════════════════════════
+         [ B & C THRESHOLD LAYERS ]  <-- The Cosmic Web
+         Filaments, Walls & Nodes       (Clumpy Bridges)
+         ════════════════════════════
+                      ▲
+                      │ (Density Rises)
+                      │
+              [ HOT / SLOW ZONE ]
+                Galactic Cores (Layer A)
 
-## 🔬 Key Predictions (v6)
-- **Qubit Coherence:** 250× improvement at L2 vs. Earth (Falsification: <50×).
-- **Void Hubble Constant:** $H_{void} \approx 66 \pm 1.5$ km/s/Mpc.
-- **Webb Anomaly:** Galaxy age excess scales as $\delta^{0.04}$.
-- **Dark Matter:** Atomic clock drift near DM overdensities.
+---
 
-## 🤝 Engagement
-This framework is open for critique, collaboration, and mathematical formalization.
-- **Read the Paper:** [Zenodo Link](https://doi.org/10.5281/zenodo.19802599)
-- **Contact:** info@temporaldecoupling.com
+## 🔬 Key Physical Mechanics
+
+1. **Substrate Stress Equation:**  
+   $$\nabla^2 P = 4\pi G\rho$$  
+   Local substrate pressure ($P$) is governed directly by matter-energy density ($\rho$), creating continuous scalar stress gradients across space.
+
+2. **Time-Rate Differentials ($\Delta \tau$):**  
+   Time does not flow at a uniform global background rate; rather, local clocks tick as a function of substrate boundary stress.
+
+3. **3D Standing Wave Particles:**  
+   Subatomic particles and fundamental charge states are treated as stationary resonance nodes within the moving substrate frame. Measurement interactions act as angular geometric projections across the substrate's 3D standing wave.
+
+---
+
+## 📊 Falsifiable Predictions & Hardware Benchmarks
+
+Unlike purely abstract models, Version 10.0 provides concrete, verifiable numerical predictions across both cosmological and quantum engineering scales:
+
+| Scale | Benchmark Domain | Prediction / Identity | Validation Status |
+| :--- | :--- | :--- | :--- |
+| **Cosmological** | KBC Void Expansion | **$66 \pm 1.5\text{ km/s/Mpc}$** ($1.044$ Hubble Scaling Identity) | Observational Match |
+| **Quantum Hardware** | Lagrange Point L2 Environment | **$250\times$ Coherence Multiplier** for Superconducting Qubits | Proposed Experiment |
+| **Particle Physics** | Three Generations of Matter | Discrete harmonic node family (Electron, Muon, Tau) | Standard Model Alignment |
