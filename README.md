@@ -43,3 +43,16 @@ aett-tsc-roberts-vacuum-model/
 ├── CITATION.cff                                # Standardized Academic Citation Metadata
 ├── LICENSE                                     # MIT Open-Source License
 └── README.md
+
+## ⚙️ Automated Numerical Verification (`v11.0`)
+
+Every equation and constant in the four-paper suite can be verified directly from Phase A baseline inputs using the standalone Python script (requires Python 3.8+, zero external dependencies):
+
+```bash
+python3 v11.0/substrate_verification.py
+
+To auto-generate the Markdown parameter table:
+
+python3 v11.0/substrate_verification.py --export-ledger
+
+📊 Master Parameter Ledger (v11.0)Parameter / ConstantFirst-Principles FormulationComputed ValueSubstrate Mass Density ($\rho_0$)Baseline Continuum Density6.70e+17 kg/m³Relativistic Bulk Modulus ($P_0$)$P_0 = \rho_0 c^2$6.022e+34 PaMetric Wave Speed ($c$)$c = \sqrt{P_0 / \rho_0}$2.9979e+08 m/sMaster-Lock Identity ($M$)$(4/3)^{1/3}[1-f(\theta_C)][1+3g(n)]$1.04423D Bulk Cavitation Drag ($U_{\text{drag}}$)$`3(\mu_0/\alpha) \approx P_0 V_{\text{core}}/M - \Sigma\Omega_B`$888.00 MeVProton Rest Mass ($M_p$)$`(\Sigma\Omega_B + U_{\text{drag}} + E_C) \times M`$938.27 MeVNeutron Rest Mass ($M_n$)$`(\Sigma\Omega_B + U_{\text{relaxed}} + E_{\text{self}}) \times M`$939.56 MeV$n - p$ Mass Splitting ($\Delta M$)$M_n - M_p$+1.293 MeVElectron Rest Mass ($M_e$)$`\Omega_{\text{shallow}} \times M`$ ($L_c=1, V=0$)0.511 MeVProton-to-Electron Ratio ($M_p/M_e$)$`(\Sigma\Omega_B + U_{\text{drag}} + \Delta\Omega_b)/\Omega_{\text{shallow}}`$1836.15Tier 1 Expansion ($H_{\text{Local}}$)Phase D Local Host Rate (SH0ES)73.04 km/s/MpcTier 2 Expansion ($H_{\text{Tier 2}}$)$`H_{\text{Local}} / M`$ (TRGB / TDCOSMO)69.95 km/s/MpcTier 3 Expansion ($H_{\text{Tier 3}}$)$`H_{\text{Local}} / M^2`$ (Planck CMB)66.99 km/s/MpcQCD String Tension ($\sigma$)$`P_0 \cdot \pi R_{\text{core}}^2`$0.835 GeV/fm
