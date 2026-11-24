@@ -43,6 +43,9 @@ aett-tsc-roberts-vacuum-model/
 ├── CITATION.cff                                # Standardized Academic Citation Metadata
 ├── LICENSE                                     # MIT Open-Source License
 └── README.md
+```
+
+---
 
 ## ⚙️ Automated Numerical Verification (`v11.0`)
 
@@ -50,9 +53,50 @@ Every equation and constant in the four-paper suite can be verified directly fro
 
 ```bash
 python3 v11.0/substrate_verification.py
+```
 
 To auto-generate the Markdown parameter table:
 
+```bash
 python3 v11.0/substrate_verification.py --export-ledger
+```
 
-📊 Master Parameter Ledger (v11.0)Parameter / ConstantFirst-Principles FormulationComputed ValueSubstrate Mass Density ($\rho_0$)Baseline Continuum Density6.70e+17 kg/m³Relativistic Bulk Modulus ($P_0$)$P_0 = \rho_0 c^2$6.022e+34 PaMetric Wave Speed ($c$)$c = \sqrt{P_0 / \rho_0}$2.9979e+08 m/sMaster-Lock Identity ($M$)$(4/3)^{1/3}[1-f(\theta_C)][1+3g(n)]$1.04423D Bulk Cavitation Drag ($U_{\text{drag}}$)$`3(\mu_0/\alpha) \approx P_0 V_{\text{core}}/M - \Sigma\Omega_B`$888.00 MeVProton Rest Mass ($M_p$)$`(\Sigma\Omega_B + U_{\text{drag}} + E_C) \times M`$938.27 MeVNeutron Rest Mass ($M_n$)$`(\Sigma\Omega_B + U_{\text{relaxed}} + E_{\text{self}}) \times M`$939.56 MeV$n - p$ Mass Splitting ($\Delta M$)$M_n - M_p$+1.293 MeVElectron Rest Mass ($M_e$)$`\Omega_{\text{shallow}} \times M`$ ($L_c=1, V=0$)0.511 MeVProton-to-Electron Ratio ($M_p/M_e$)$`(\Sigma\Omega_B + U_{\text{drag}} + \Delta\Omega_b)/\Omega_{\text{shallow}}`$1836.15Tier 1 Expansion ($H_{\text{Local}}$)Phase D Local Host Rate (SH0ES)73.04 km/s/MpcTier 2 Expansion ($H_{\text{Tier 2}}$)$`H_{\text{Local}} / M`$ (TRGB / TDCOSMO)69.95 km/s/MpcTier 3 Expansion ($H_{\text{Tier 3}}$)$`H_{\text{Local}} / M^2`$ (Planck CMB)66.99 km/s/MpcQCD String Tension ($\sigma$)$`P_0 \cdot \pi R_{\text{core}}^2`$0.835 GeV/fm
+---
+
+## 📊 Master Parameter Ledger (`v11.0`)
+
+| Parameter / Constant | First-Principles Formulation | Computed Value |
+| :--- | :--- | :--- |
+| **Substrate Mass Density ($\rho_0$)** | Baseline Continuum Density | `6.70e+17 kg/m³` |
+| **Relativistic Bulk Modulus ($P_0$)** | $P_0 = \rho_0 c^2$ | `6.022e+34 Pa` |
+| **Metric Wave Speed ($c$)** | $c = \sqrt{P_0 / \rho_0}$ | `2.9979e+08 m/s` |
+| **Master-Lock Identity ($M$)** | $(4/3)^{1/3}[1-f(\theta_C)][1+3g(n)]$ | `1.0442` |
+| **3D Bulk Cavitation Drag ($U_{\text{drag}}$)** | $`3(\mu_0/\alpha) \approx P_0 V_{\text{core}}/M - \Sigma\Omega_B`$ | `888.00 MeV` |
+| **Proton Rest Mass ($M_p$)** | $`(\Sigma\Omega_B + U_{\text{drag}} + E_C) \times M`$ | `938.27 MeV` |
+| **Neutron Rest Mass ($M_n$)** | $`(\Sigma\Omega_B + U_{\text{relaxed}} + E_{\text{self}}) \times M`$ | `939.56 MeV` |
+| **$n - p$ Mass Splitting ($\Delta M$)** | $M_n - M_p$ | `+1.293 MeV` |
+| **Electron Rest Mass ($M_e$)** | $`\Omega_{\text{shallow}} \times M`$ ($L_c=1, V=0$) | `0.511 MeV` |
+| **Proton-to-Electron Ratio ($M_p/M_e$)** | $`(\Sigma\Omega_B + U_{\text{drag}} + \Delta\Omega_b)/\Omega_{\text{shallow}}`$ | `1836.15` |
+| **Tier 1 Expansion ($H_{\text{Local}}$)** | Phase D Local Host Rate (SH0ES) | `73.04 km/s/Mpc` |
+| **Tier 2 Expansion ($H_{\text{Tier 2}}$)** | $`H_{\text{Local}} / M`$ (TRGB / TDCOSMO) | `69.95 km/s/Mpc` |
+| **Tier 3 Expansion ($H_{\text{Tier 3}}$)** | $`H_{\text{Local}} / M^2`$ (Planck CMB) | `66.99 km/s/Mpc` |
+| **QCD String Tension ($\sigma$)** | $`P_0 \cdot \pi R_{\text{core}}^2`$ | `0.835 GeV/fm` |
+
+---
+
+## 📖 Citation
+
+If you reference the Substrate Framework, equations, or numerical verification suite in your work, please cite:
+
+```bibtex
+@misc{roberts2026substrate,
+  author       = {Roberts, Hollis},
+  title        = {{Substrate Framework: Primary Foundations \& Continuum Architecture (v11.0)}},
+  year         = {2026},
+  month        = nov,
+  publisher    = {Zenodo},
+  version      = {11.0.0},
+  doi          = {10.5281/zenodo.21497378},
+  url          = {https://doi.org/10.5281/zenodo.21497378}
+}
+```
