@@ -1,6 +1,7 @@
 # Substrate Framework: Primary Foundations & Continuum Architecture
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21497378.svg)](https://doi.org/10.5281/zenodo.21497378)
+[![Concept DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21497378.svg)](https://doi.org/10.5281/zenodo.21497378)
+[![v11.0 DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24491111.svg)](https://doi.org/10.5281/zenodo.24491111)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.12](https://img.shields.io/badge/Python-3.12-blue.svg)](https://www.python.org/)
 [![Release](https://img.shields.io/badge/Release-v11.0-brightgreen.svg)](https://github.com/hollis-roberts/aett-tsc-roberts-vacuum-model/releases/tag/v11.0)
