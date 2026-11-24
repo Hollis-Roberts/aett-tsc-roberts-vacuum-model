@@ -26,5 +26,8 @@ version: 11.0.0
 date-released: "2026-11-24"
 identifiers:
   - type: doi
+    value: 10.5281/zenodo.24491111
+    description: "Version 11.0.0 DOI on Zenodo"
+  - type: doi
     value: 10.5281/zenodo.21497378
     description: "Concept DOI representing all versions of the Substrate Framework repository on Zenodo"
