@@ -37,7 +37,7 @@ aett-tsc-roberts-vacuum-model/
 │   ├── sub-paper-a-hadronic-mass.pdf           # Hadronic Mass Synthesis & Lepton Immunity
 │   ├── sub-paper-b-cosmology.pdf               # Cosmological Refraction & Hubble Tension
 │   ├── sub-paper-c-quantum-topology.pdf        # Open Vector Flow-Tubes & L2 Space Protocols
-│   └── verify_v11_ledger.py                    # Standalone First-Principles Verification Suite
+│   └── substrate_verification.py               # Standalone First-Principles Verification Suite
 ├── v10.0/                                      # Previous Release Archive
 ├── archive/                                    # Historical Development Snapshots
 ├── CITATION.cff                                # Standardized Academic Citation Metadata
