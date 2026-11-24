@@ -1,33 +1,30 @@
 cff-version: 1.2.0
-title: "The Temporal Decoupling Framework (v10.0)"
-message: "If you use this work, please cite it using the metadata below."
+title: "Substrate Framework: Primary Foundations & Continuum Architecture"
+message: "If you use or reference this theoretical framework, manuscript suite, or verification script, please cite it using the metadata below."
+type: software
 authors:
-  - family-names: Roberts
-    given-names: Hollis Augustus
-    orcid: https://orcid.org/0009-0009-3168-5560
-version: "10.0"
-date-released: 2026-07-24
-url: "https://github.com/Hollis-Roberts/aett-tsc-roberts-vacuum-model"
-license: CC-BY-4.0
-doi: 10.5281/zenodo.19802599
-preferred-citation:
-  type: article
-  authors:
-    - family-names: Roberts
-      given-names: Hollis Augustus
-      orcid: https://orcid.org/0009-0009-3168-5560
-  title: "The Temporal Decoupling Framework"
-  year: 2026
-  doi: 10.5281/zenodo.19802599
-  url: "https://doi.org/10.5281/zenodo.19802599"
-related-publications:
-  - type: article
-    authors:
-      - family-names: Roberts
-        given-names: Hollis Augustus
-        orcid: https://orcid.org/0009-0009-3168-5560
-    title: "Pre-Temporal Worldlines, Chronometric Coupling, and the Geometric Origin of the Particle Spectrum"
-    year: 2026
-    doi: 10.5281/zenodo.20437023
-    url: "https://doi.org/10.5281/zenodo.20437023"
-    note: "Companion technical note formalizing intersection geometry, particle spectrum, and falsifiable predictions"
+  - family-names: "Roberts"
+    given-names: "Hollis"
+    orcid: "https://orcid.org/0009-0009-3168-5560"
+repository-code: "https://github.com/hollis-roberts/aett-tsc-roberts-vacuum-model"
+url: "https://github.com/hollis-roberts/aett-tsc-roberts-vacuum-model"
+abstract: >-
+  An effective quantum hydrodynamic continuum field theory unifying subatomic
+  rest mass generation, quantum topology, and cosmological expansion without
+  relying on Higgs Yukawa couplings, non-local wave-function collapse, or
+  spacetime curvature.
+keywords:
+  - "quantum hydrodynamics"
+  - "continuum mechanics"
+  - "Hubble tension"
+  - "hadronic mass synthesis"
+  - "emergent gravity"
+  - "Timeless Sea Concept"
+  - "Temporal Decoupling"
+license: MIT
+version: 11.0.0
+date-released: "2026-11-24"
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.21497378
+    description: "Concept DOI representing all versions of the Substrate Framework repository on Zenodo"
